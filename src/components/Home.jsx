@@ -6,7 +6,7 @@ const Home = () => {
     const [text] = useTypewriter({
         words: ["Hi, Welcome to the Responsive Landing Page.", "I'm a intern at Prodigy InfoTech."],
         loop:{}
-    })
+    }) 
 
   return (
     <div className='px-10 md:px-40 grid py-20 md:py-0 grid-row-2 justify-between h-screen bg-gradient-to-br from-purple-100 to-purple-300 md:grid-cols-2'>
